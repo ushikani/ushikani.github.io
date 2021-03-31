@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(2, 100px);
+
+ width: 400px;
+ height: 300px;
+ background: rgb(38, 110, 4);
+
+ justify-content: center;
+ align-content: center;
+
+ justify-items: center;
+ align-items: center;
+}
+
+.container > div {
+  width: 50px;
+  height: 50px;
+}
+
+
+.box1 {
+  background: rgba(95, 255, 220, 0.747);
+  justify-self:  start;
+  align-self: start;
+
+}
+.box2 {
+  background: rgba(46, 158, 134, 0.747);
+ 
+}
+.box3 {
+  background: rgba(159, 255, 234, 0.747);
+
+}
+.box4 {
+  background: rgba(7, 196, 155, 0.747);
+
+}
+.box5 {
+  background: rgba(217, 252, 244, 0.747);
+
+}
